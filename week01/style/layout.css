@@ -1,0 +1,68 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #3a3a3a;
+    color: white;
+}
+
+header h1 {
+    padding: 20px;
+}
+
+/* Navigation bar */
+nav {
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 15px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main layout */
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    min-height: 300px;
+}
+
+/* Main content */
+section {
+    background-color: #bfbfbf;
+    padding: 20px;
+}
+
+/* Aside content */
+aside {
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #3a3a3a;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
